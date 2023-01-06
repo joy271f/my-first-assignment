@@ -22,11 +22,11 @@ header{
 }
 
 .btn-primary{
-    color: blue;
+    color: rgb(0, 0, 0);
     margin-top: 20px;
-    padding: 20px 40px;
-    border-radius: 80px;
-    border: 2px solid blue;
+    padding: 18px 30px;
+    border-radius: 5px;
+    border: 1px solid blue;
     font-weight: 900px;
     font-size: 20px;
     box-shadow: 15px 15px 80px gray;
@@ -169,7 +169,7 @@ footer{
 .future{
     display: flex;
     gap: 280px;
-    margin: 290px;
+    margin: 150px 290px 290px 290px ;
     justify-content: space-between;
 }
 
@@ -209,7 +209,7 @@ footer{
     gap: 30px;
     list-style: none;
 }
-
+    
 .footer-icon img{
     margin-top: 30px;
     padding-right: 10px;

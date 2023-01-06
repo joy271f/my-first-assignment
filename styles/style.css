@@ -24,12 +24,13 @@ header{
 .btn-primary{
     color: blue;
     margin-top: 20px;
-    padding: 20px 30px;
-    border-radius: 5px;
+    padding: 20px 40px;
+    border-radius: 80px;
     border: 2px solid blue;
     font-weight: 900px;
     font-size: 20px;
-    box-shadow: 10px 10px 30px gray;
+    box-shadow: 15px 15px 80px gray;
+    cursor: pointer;
 }
 
 .btn-primary:hover{
@@ -138,14 +139,13 @@ hr{
 /* positive mindset style */
 
 .positive-img{
-    background-image: linear-gradient(to right, #1739f9, #d3d7f1b4), url('../images/watch.png');
+    background-image: linear-gradient(to right, #005FAC, #005fac23), url('../images/watch.png');
     background-repeat: no-repeat;
     width: 100%;
     height: 280px;
     background-size: cover;
     border-radius: 15px;
     padding: 20px;
-    background-blend-mode:multiply;
 }
 .po-color{
     color: white;
@@ -157,4 +157,60 @@ hr{
 
 .positive-button{
     margin-left: 50px;
+}
+
+/* Footer style */
+footer{
+    color: white;
+    background-color: black;
+    height: 600px;
+}
+
+.future{
+    display: flex;
+    gap: 280px;
+    margin: 290px;
+    justify-content: space-between;
+}
+
+.future-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.future-description{
+    line-height: 30px;
+}
+
+.future-pera{
+    margin-top: 10px;
+    line-height: 50px;
+}
+
+.subscribe{
+    margin-top: 110px;
+    font-size: 15px;
+}
+
+.subscribe input{
+    font-size: 15px;
+    margin-top: 40px;
+    padding: 15px 30px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+/* Footer social icon style */
+.f-icon-parent{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.footer-icon img{
+    margin-top: 30px;
+    padding-right: 10px;
 }
